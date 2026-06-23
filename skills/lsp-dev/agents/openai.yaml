@@ -1,0 +1,3 @@
+display_name: LSP Development
+short_description: Build, debug, test, and package Language Server Protocol implementations and editor integrations.
+default_prompt: Use this skill to design or work on a language server, LSP provider, protocol capability, editor client integration, diagnostics pipeline, index, parser cache, or release package.

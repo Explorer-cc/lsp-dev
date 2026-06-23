@@ -1,0 +1,35 @@
+{
+  "name": "@kasmir/lsp-dev-skill",
+  "version": "0.1.0",
+  "description": "Installable Codex and Claude skill for Language Server Protocol development.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "lsp-dev-skill": "./bin/lsp-dev-skill.mjs"
+  },
+  "files": [
+    "bin/",
+    "scripts/",
+    "skills/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node scripts/validate.mjs",
+    "validate": "node scripts/validate.mjs",
+    "doctor": "node bin/lsp-dev-skill.mjs doctor"
+  },
+  "keywords": [
+    "codex",
+    "claude",
+    "skill",
+    "lsp",
+    "language-server-protocol"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
