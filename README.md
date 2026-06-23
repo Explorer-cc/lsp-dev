@@ -9,21 +9,21 @@ The skill covers protocol capability negotiation, document sync, completion, hov
 Use npm without a global install:
 
 ```bash
-npx @kasmir/lsp-dev-skill install codex
-npx @kasmir/lsp-dev-skill install claude
+npx @explorer_kasmir/lsp-dev-skill install codex
+npx @explorer_kasmir/lsp-dev-skill install claude
 ```
 
 Install into an explicit skills directory:
 
 ```bash
-npx @kasmir/lsp-dev-skill install --target ~/.codex/skills
-npx @kasmir/lsp-dev-skill install --target ~/.claude/skills
+npx @explorer_kasmir/lsp-dev-skill install --target ~/.codex/skills
+npx @explorer_kasmir/lsp-dev-skill install --target ~/.claude/skills
 ```
 
 Replace an existing install:
 
 ```bash
-npx @kasmir/lsp-dev-skill install codex --force
+npx @explorer_kasmir/lsp-dev-skill install codex --force
 ```
 
 ## Manual Install
@@ -57,7 +57,7 @@ Test the packed artifact before publishing:
 
 ```bash
 npm pack
-npx ./kasmir-lsp-dev-skill-0.1.0.tgz install --target ./tmp/skills
+npx ./explorer_kasmir-lsp-dev-skill-1.0.0.tgz install --target ./tmp/skills
 ```
 
 ## License

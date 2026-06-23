@@ -1,11 +1,11 @@
 {
-  "name": "@kasmir/lsp-dev-skill",
+  "name": "@explorer_kasmir/lsp-dev-skill",
   "version": "1.0.0",
   "description": "Installable Codex and Claude skill for Language Server Protocol development.",
   "license": "MIT",
   "type": "module",
   "bin": {
-    "lsp-dev-skill": "./bin/lsp-dev-skill.mjs"
+    "lsp-dev-skill": "bin/lsp-dev-skill.mjs"
   },
   "files": [
     "bin/",
